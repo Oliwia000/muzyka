@@ -55,8 +55,8 @@ namespace muzyka.View
                 return;
 
             var song = songs[index];
-            TitleLabel.Text = song.Title;
-            ArtistLabel.Text = song.Artist;
+            Titlel.Text = song.Title;
+            Artistl.Text = song.Artist;
             CoverImage.Source = song.CoverImage;
             DurationLabel.Text = song.Duration;
         }

@@ -18,14 +18,17 @@
                Aspect="AspectFill"
                HorizontalOptions="Center" />
 
-            <Label x:Name="TitleLabel"
+            
+            <Label x:Name="Titlel"
                FontSize="Title"
                HorizontalOptions="Center" />
 
-            <Label x:Name="ArtistLabel"
+            
+            <Label x:Name="Artistl"
                FontSize="Default"
                HorizontalOptions="Center" />
 
+            
             <Grid ColumnSpacing="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
