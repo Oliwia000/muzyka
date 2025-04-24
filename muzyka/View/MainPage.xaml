@@ -41,6 +41,7 @@
                 <Label x:Name="DurationLabel" VerticalOptions="Center" Grid.Column="2" />
             </Grid>
 
+            
             <Grid ColumnSpacing="20">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />

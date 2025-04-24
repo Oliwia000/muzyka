@@ -3,7 +3,7 @@
     x:Class="muzyka.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:muzyka"
+    xmlns:local="clr-namespace:muzyka.View"
     Shell.FlyoutBehavior="Disabled"
     Title="muzyka">
 
@@ -13,3 +13,4 @@
         Route="MainPage" />
 
 </Shell>
+
