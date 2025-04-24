@@ -1,5 +1,5 @@
 ﻿using muzyka.Model;
-namespace muzyka
+namespace muzyka.View
 {
     public partial class MainPage : ContentPage
 
