@@ -27,7 +27,7 @@ namespace muzyka.View
                 Artist = "Noisestorm",
                 Title = "Crab Rave",
                 Duration = "3:12",
-                CoverImage = "crabrave.jpg"
+                CoverImage = "crab.jpg"
             },
             new Song
             {
