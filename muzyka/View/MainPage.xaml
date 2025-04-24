@@ -38,7 +38,7 @@
 
                 <Label Text="0:00" VerticalOptions="Center" Grid.Column="0" />
                 <Slider Minimum="0" Maximum="100" Value="0" Grid.Column="1" />
-                <Label x:Name="DurationLabel" VerticalOptions="Center" Grid.Column="2" />
+                <Label x:Name="Durationl" VerticalOptions="Center" Grid.Column="2" />
             </Grid>
 
             

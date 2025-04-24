@@ -58,7 +58,7 @@ namespace muzyka.View
             Titlel.Text = song.Title;
             Artistl.Text = song.Artist;
             CoverImage.Source = song.CoverImage;
-            DurationLabel.Text = song.Duration;
+            Durationl.Text = song.Duration;
         }
         /// <summary>
         /// 
