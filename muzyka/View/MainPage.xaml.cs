@@ -6,18 +6,14 @@ namespace muzyka.View
     {
         private List<Song> songs;
         private int currentIndex = 0;
-        /// <summary>
-        /// 
-        /// </summary>
+      
         public MainPage()
         {
             InitializeComponent();
             LoadSongs();
             ShowSong(currentIndex);
         }
-        /// <summary>
-        /// 
-        /// </summary>
+       
         private void LoadSongs()
         {
             songs = new List<Song>
@@ -45,10 +41,7 @@ namespace muzyka.View
             }
         };
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="index"></param>
+       
         private void ShowSong(int index)
         {
             if (songs == null || songs.Count == 0)
@@ -60,34 +53,21 @@ namespace muzyka.View
             CoverImage.Source = song.CoverImage;
             Durationl.Text = song.Duration;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+      
         private void OnNextClicked(object sender, EventArgs e)
         {
             currentIndex = (currentIndex + 1) % songs.Count;
             ShowSong(currentIndex);
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+      
         private void OnBackClicked(object sender, EventArgs e)
         {
             currentIndex = (currentIndex - 1 + songs.Count) % songs.Count;
             ShowSong(currentIndex);
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+     
         private void OnPlayClicked(object sender, EventArgs e)
         {
 
         }
-    }
-        }
+    }}
